@@ -8,7 +8,6 @@ from werkzeug.utils import secure_filename
 import tensorflow.keras
 from PIL import Image, ImageOps
 import numpy as np
-from camera import VideoCamera
 from browser_camera import Camera
 from makeup_artist import Makeup_artist
 
