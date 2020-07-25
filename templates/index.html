@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Select AI/ML Model</h1>
+     <form action="{{ url_for('model')}}"method="post">
+        <label for="model">Choose a Mask Detection way:</label>
+        <select id="model" name="model">
+            <option value="InputFile_MaskPrediction" id="InputMask">InputFile</option>
+            <option value="Webcam_MaskPrediction" id="webcam">Webcam</option>
+        </select>
+        <input type="submit" />
+     </form>
+
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+</body>
+</html>
