@@ -5,7 +5,7 @@ Jinja2==2.11.2
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
 numpy>=1.19.0
-pillow==7.2.0
+pillow==9.0.0
 tensorflow-cpu==2.2.0
 opencv-python-headless>=4.1.0.25
 setuptools>=41.0.0
