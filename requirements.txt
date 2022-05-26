@@ -6,7 +6,7 @@ MarkupSafe==1.1.1
 Werkzeug==0.15.5
 numpy>=1.19.0
 pillow==7.2.0
-tensorflow-cpu==2.2.0
+tensorflow-cpu==2.7.2
 opencv-python-headless>=4.1.0.25
 setuptools>=41.0.0
 Flask-SocketIO==4.3.1
